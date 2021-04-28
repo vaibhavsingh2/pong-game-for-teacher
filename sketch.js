@@ -77,7 +77,7 @@ function draw() {
   
   console.log(computerPaddle.y);
   //add AI to the computer paddle so that it always hits the ball
-  if(touches<2){
+  if(touches<8){
   computerPaddle.y = ball.y;
   }
   else{
